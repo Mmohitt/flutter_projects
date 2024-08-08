@@ -12,14 +12,14 @@ class StartScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'asset/images/quiz-logo.png',
+            'assets/quiz-logo.png',
             width: 300,
           ),
           const SizedBox(
             height: 80,
           ),
           const Text(
-            ' i am a software developer',
+            'software developer',
             style: TextStyle(
               color: Colors.white,
               fontSize: 24,
